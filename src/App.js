@@ -5,6 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+
   <header className="App-header">
     <img src={logo} className="App-logo" alt="logo" />
     <p>
@@ -24,6 +25,22 @@ function App() {
         The mischievous squirrel darted across the park, clutching a shiny acorn in its tiny paws.
         Look closely, and you might just catch a glimpse of its playful antics!
       </p>
+
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and Musa loves and julius amina.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+
     </div>
   </header>
 </div>
