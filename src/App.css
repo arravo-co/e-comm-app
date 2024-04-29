@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.Squirrel-image{
+  width: 450px;
+  margin-top: 90px;
+  border-radius: 420px;
+}
+
+@keyframes squirrelAnimation {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(50px) rotate(10deg); }
+  100% { transform: translateX(0); }
+}
+
+.Squirrel-image {
+  animation: squirrelAnimation 2s ease infinite;
+}
