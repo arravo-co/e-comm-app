@@ -13,21 +13,42 @@ footer {
 }
 
 form {
-  max-width: 400px;
+  max-width: 500px; 
   margin: 0 auto;
+  width: 360px;
 }
 
 label {
-  display: block;
+  padding-right: 20px;
   margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  text-align: left;
+}
+
+h1{
+ font-size: 35px;
+ font-size: 33px;
+ font-weight: 800;
+ line-height: 48.41px;
+ margin-bottom: 10px;
+}
+
+p{
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 24.2px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 input {
   width: 100%;
   padding: 10px 0;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  border: 1px solid;
+  margin: 15px 0;
+  box-sizing: border-box;
+  padding-left: 10px;
 }
 
 button {
@@ -36,10 +57,13 @@ button {
   padding: 10px 0;
   border: none;
   cursor: pointer;
+  font-size: large;
+  font-weight: bold;
   text-align: center;
-  border-radius: 5px; 
   width: 100%; 
   box-sizing: border-box; 
+  border-radius: 5px;
+  margin-top: 10px;
 }
 
 button:hover {
@@ -51,14 +75,14 @@ button:hover {
   flex-direction: column; 
   justify-content: center;
   align-items: center; 
-  height: 35vh; 
+  height: 40vh; 
   margin: 100px auto; 
   max-width: 500px; 
   padding: 40px;
   background-color: #fff;
-  box-shadow: 0 40px 18px rgba(13, 28, 230, 0.5);  
-  border-radius: 10px;
-  border: 1px solid;
+  /* box-shadow: 0 40px 18px rgba(13, 28, 230, 0.5);   */
+  /* border: 1px solid; */
+  
 }
 
 h2 {
