@@ -82,6 +82,7 @@
     padding: 8px 40%;
     margin-top: 25px;
     margin-bottom: 15px;
+    border-top: 30px;
     background-color: #00008B;
     color: #fff;
     text-decoration: none;
@@ -95,6 +96,7 @@
   
   .loginBtn:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    background: #00005a;
   }
   
   .forgot-password {
@@ -136,8 +138,9 @@
     transform: translateY(-50%); 
   }
 
-  .google-login:hover {
+  .googleBtn:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    background: #f1f1f1;
   }
   
   .last-line {
