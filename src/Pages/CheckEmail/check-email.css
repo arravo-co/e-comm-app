@@ -1,0 +1,175 @@
+  *{
+    font-family: inter;
+    position: relative;
+  }
+  .icon1 {
+    width: 80px;
+    height: 80px;
+    background-color: #00008B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .humanlogo{
+    color: #fff;
+    font-size: 32px;
+  }
+
+  .container {
+    max-width: 500px;
+    margin-top: 6%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .Welcome {
+    padding-top: 3px;
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  h1 {
+    color: #333;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    color: #828282;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 550;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    text-align: left;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #00008B;
+    box-shadow: 0 0 5px #00008B;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .loginBtn {
+    padding: 8px 40%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    background-color: #00008B;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    font-weight: 400;
+  }
+  
+  .loginBtn:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .forgot-password {
+    display: block;
+    text-align: center;
+    color: #00008B;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+    
+  .googleBtn {
+    padding: 8px 29.5%;
+    margin-top: 8px;
+    background-color: #ffffff;
+    color: #00008B;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1.6px solid #00008B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    font-weight: 400;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .googleBtn .googlelogo {
+    width: 25px;
+    height: auto;
+    position: absolute;
+    padding-right: 10px;
+    left: 27%; 
+    top: 50%; 
+    transform: translateY(-50%); 
+  }
+
+  .google-login:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .last-line {
+    text-align: center;
+    padding-top: 45px;
+  }
+  
+  .sign-up {
+    color: #00008B;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  
+  .sign-up:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 520px) {
+    .googleBtn {
+      padding: 8px 10%; 
+    }
+    
+    .googleBtn .googlelogo {
+      left: 5px;
+    }
+  }
+  
+  .google-login:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .loginBtn{
+    padding: 8px 40%;
+  }
